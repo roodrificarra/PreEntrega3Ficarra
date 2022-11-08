@@ -1,0 +1,24 @@
+.boton-aqui {
+  padding: 5px 20px;
+}
+
+.aqui {
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.aqui:hover {
+  cursor: pointer;
+}
+
+.btn,
+button {
+  background: linear-gradient(to right, green, yellow);
+  color: black;
+  padding: 5px 10px;
+}
+
+.btn:hover {
+  opacity: 0.2;
+}

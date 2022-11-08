@@ -1,0 +1,113 @@
+@media (min-width: 768px) {
+  .navbar-toggler {
+    display: none;
+  }
+  .main__title {
+    padding: 3rem;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+  .iframe-container iframe {
+    width: 25rem;
+    height: 25rem;
+  }
+  .grid--container {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    justify-content: center;
+  }
+  .main__text-colectivos {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: italic;
+    color: white;
+    line-height: 2rem;
+    padding: 2rem;
+    align-items: center;
+  }
+}
+@media (min-width: 1024px) {
+  .image__position {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    border-radius: 30px;
+    height: 30rem;
+  }
+
+  .card__image {
+    height: 15rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+
+  main {
+    text-align: center;
+  }
+
+  .grid--container {
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    justify-content: center;
+  }
+  .main__title {
+    padding: 3rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .main__text-colectivos {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: italic;
+    color: white;
+    line-height: 2rem;
+  }
+
+  .main__text--c {
+    font-family: "Noto Sans Mono", monospace;
+    font-style: italic;
+    color: white;
+    margin: 1rem;
+    line-height: 4rem;
+    padding: 0;
+  }
+
+  .section__image-i {
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    padding: 2rem;
+  }
+
+  .iframe-container iframe {
+    width: 35rem;
+    height: 35rem;
+  }
+
+  .iframe-container {
+    padding: 2rem;
+  }
+
+  .cont {
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  form {
+    width: 50%;
+  }
+
+  .main__title-con {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem;
+    padding: 2rem;
+  }
+}

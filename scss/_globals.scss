@@ -1,0 +1,124 @@
+.main-title {
+  color: white;
+  padding: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* SPAN */
+.span-green {
+  color: green;
+  opacity: 3rem;
+}
+
+.span-blue {
+  color: blue;
+}
+
+.span--green {
+  color: green;
+}
+
+.span--yellow {
+  color: yellow;
+}
+
+.span-red {
+  color: red;
+}
+
+.span--yellow:hover {
+  color: green;
+}
+
+.span--green:hover {
+  color: yellow;
+}
+
+.span--bold {
+  font-weight: bold;
+}
+
+body {
+  width: 100%;
+  background-image: url(../img/fondo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 6rem;
+}
+
+.main__text-colectivos {
+  font-family: "Noto Sans Mono", monospace;
+  font-style: italic;
+  color: white;
+  line-height: 2rem;
+}
+
+.text-find {
+  margin-top: 2rem;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.main__title {
+  padding: 3rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.main__title-con {
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.text-font {
+  font-family: "Noto Sans Mono", monospace;
+  font-style: italic;
+}
+
+.text-white h4 {
+  margin: 10px;
+}
+
+.main__text--c {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.main__text {
+  font-family: "Noto Sans Mono", monospace;
+  font-style: italic;
+  color: white;
+  padding: 2rem;
+  line-height: 2rem;
+}
+
+.bus:hover {
+  opacity: 0.3;
+}
+
+main {
+  text-align: center;
+  justify-content: center;
+}

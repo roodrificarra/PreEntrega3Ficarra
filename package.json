@@ -1,0 +1,20 @@
+{
+  "name": "preentrega3ficarra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass:compile": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roodrificarra/PreEntrega3Ficarra.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roodrificarra/PreEntrega3Ficarra/issues"
+  },
+  "homepage": "https://github.com/roodrificarra/PreEntrega3Ficarra#readme"
+}
