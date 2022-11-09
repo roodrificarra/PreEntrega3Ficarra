@@ -1,17 +1,15 @@
-.nav-item a {
-  display: inline-block;
-}
-
-.nav-item {
-  margin: 0.3rem;
-}
-
 header {
   position: sticky;
   top: 0;
   font-size: 1.5rem;
   font-family: "Abyssinica SIL", serif;
   z-index: 2;
+  .nav-item {
+    margin: 0.3rem;
+    & a {
+      display: inline-block;
+    }
+  }
 }
 
 .container {

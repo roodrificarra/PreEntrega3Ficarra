@@ -11,10 +11,6 @@
 }
 
 /* SPAN */
-.span-green {
-  color: green;
-  opacity: 3rem;
-}
 
 .span-blue {
   color: blue;
@@ -22,22 +18,20 @@
 
 .span--green {
   color: green;
+  &:hover {
+    color: yellow;
+  }
 }
 
 .span--yellow {
   color: yellow;
+  &:hover {
+    color: green;
+  }
 }
 
 .span-red {
   color: red;
-}
-
-.span--yellow:hover {
-  color: green;
-}
-
-.span--green:hover {
-  color: yellow;
 }
 
 .span--bold {
@@ -76,14 +70,9 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: bold;
-}
-
-.main__title-con {
-  font-size: 2rem;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: bold;
-  margin: 0.5rem;
+  &.main__title-con {
+    margin: 0.5rem;
+  }
 }
 
 .text-font {

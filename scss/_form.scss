@@ -8,12 +8,14 @@ form {
   width: 90%;
 }
 
-form h2 {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  font-size: 30px;
-  margin-bottom: 20px;
+form {
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
 }
 
 input,
@@ -23,11 +25,9 @@ textarea {
   padding: 7px;
   font-size: 17px;
   border: none;
-}
-
-input,
-textarea:focus {
-  outline: none;
+  &:focus {
+    outline: none;
+  }
 }
 
 textarea {
