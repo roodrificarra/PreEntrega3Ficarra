@@ -21,7 +21,7 @@
   .main__text-colectivos {
     font-family: "Noto Sans Mono", monospace;
     font-style: italic;
-    color: white;
+    color: $text-color;
     line-height: 2rem;
     padding: 2rem;
     align-items: center;
@@ -64,14 +64,14 @@
   .main__text-colectivos {
     font-family: "Noto Sans Mono", monospace;
     font-style: italic;
-    color: white;
+    color: $text-color;
     line-height: 2rem;
   }
 
   .main__text--c {
     font-family: "Noto Sans Mono", monospace;
     font-style: italic;
-    color: white;
+    color: $text-color;
     margin: 1rem;
     line-height: 4rem;
     padding: 0;

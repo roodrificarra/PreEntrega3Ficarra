@@ -17,16 +17,16 @@
 }
 
 .span--green {
-  color: green;
+  color: $primary-color;
   &:hover {
-    color: yellow;
+    color: $secondary-color;
   }
 }
 
 .span--yellow {
-  color: yellow;
+  color: $secondary-color;
   &:hover {
-    color: green;
+    color: $primary-color;
   }
 }
 
@@ -52,7 +52,7 @@ body {
 .main__text-colectivos {
   font-family: "Noto Sans Mono", monospace;
   font-style: italic;
-  color: white;
+  color: $text-color;
   line-height: 2rem;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 
 .main__text--c {
-  color: white;
+  color: $text-color;
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
@@ -98,7 +98,7 @@ body {
 .main__text {
   font-family: "Noto Sans Mono", monospace;
   font-style: italic;
-  color: white;
+  color: $text-color;
   padding: 2rem;
   line-height: 2rem;
 }

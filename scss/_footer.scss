@@ -2,7 +2,7 @@
   font-size: 1.5rem;
   font-family: "Abyssinica SIL", serif;
   margin: 0.5rem;
-  color: white;
+  color: $text-color;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,11 +18,11 @@
 .fa-brands {
   margin-right: 0.3rem;
   padding-right: 0.3rem;
-  color: green;
+  color: $primary-color;
 }
 
 .fa-brands:hover {
-  color: yellow;
+  color: $secondary-color;
   opacity: 1rem;
 }
 
