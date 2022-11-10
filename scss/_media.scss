@@ -19,7 +19,7 @@
     justify-content: center;
   }
   .main__text-colectivos {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: $text-font;
     font-style: italic;
     color: $text-color;
     line-height: 2rem;
@@ -62,14 +62,14 @@
   }
 
   .main__text-colectivos {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: $text-font;
     font-style: italic;
     color: $text-color;
     line-height: 2rem;
   }
 
   .main__text--c {
-    font-family: "Noto Sans Mono", monospace;
+    font-family: $text-font;
     font-style: italic;
     color: $text-color;
     margin: 1rem;

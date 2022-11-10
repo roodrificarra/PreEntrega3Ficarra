@@ -22,17 +22,17 @@
 }
 
 .span--green {
-  color: rgb(2, 59, 2);
+  color: rgb(11, 141, 11);
 }
 .span--green:hover {
-  color: rgb(230, 230, 6);
+  color: rgb(180, 180, 7);
 }
 
 .span--yellow {
-  color: rgb(230, 230, 6);
+  color: rgb(180, 180, 7);
 }
 .span--yellow:hover {
-  color: rgb(2, 59, 2);
+  color: rgb(11, 141, 11);
 }
 
 .span-red {
@@ -173,7 +173,7 @@ header .nav-item a {
 
 .btn,
 button {
-  background: linear-gradient(to right, rgb(2, 59, 2), rgb(230, 230, 6));
+  background: linear-gradient(to right, rgb(11, 141, 11), rgb(180, 180, 7));
   color: black;
   padding: 5px 10px;
 }
@@ -233,11 +233,11 @@ hr {
 .fa-brands {
   margin-right: 0.3rem;
   padding-right: 0.3rem;
-  color: rgb(2, 59, 2);
+  color: rgb(11, 141, 11);
 }
 
 .fa-brands:hover {
-  color: rgb(230, 230, 6);
+  color: rgb(180, 180, 7);
   opacity: 1rem;
 }
 
